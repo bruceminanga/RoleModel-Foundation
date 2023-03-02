@@ -17,14 +17,14 @@ body {font-family: "Roboto", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
   <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#">RoleModelWorld</a>
   <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
-  <a class="w3-bar-item w3-button w3-teal" href="#">Home</a>
-  <a class="w3-bar-item w3-button" href="#">Available Sponsorships</a>
-  <a class="w3-bar-item w3-button" href="#">Hire Professionals</a>
-  <a class="w3-bar-item w3-button" href="#">Job Vacancies</a>
-  <a class="w3-bar-item w3-button" href="#">Find Life Partner</a>
-  <a class="w3-bar-item w3-button" href="#">Buy/Sell Goods</a>
-  <a class="w3-bar-item w3-button" href="#">News And Articles</a>
-  <a class="w3-bar-item w3-button" href="#">School Notes</a>
+  <a class="w3-bar-item w3-button w3-teal" href="index.html">Home</a>
+  <a class="w3-bar-item w3-button" href="sponsorships.html">Available Sponsorships</a>
+  <a class="w3-bar-item w3-button" href="professionals.html">Hire Professionals</a>
+  <a class="w3-bar-item w3-button" href="vacancies.html">Job Vacancies</a>
+  <a class="w3-bar-item w3-button" href="partner.html">Find Life Partner</a>
+  <a class="w3-bar-item w3-button" href="buy-and-sell-goods.html">Buy/Sell Goods</a>
+  <a class="w3-bar-item w3-button" href="news-and-articles.html">News And Articles</a>
+  <a class="w3-bar-item w3-button" href="school-notes.html">School Notes</a>
 
   
 
@@ -122,10 +122,12 @@ To be a model group which provides quality services
 </div>
 </section>
 
+<!--Our Contact tab-->
+
 <div id="Contact-Us" class="w3-container tabs" style="display:none">
   <br>
   <h2>Our Contact info</h2>
-  <p>This is our contact info</p>
+  <p>Find us on Telegram, linkedin, Youtube</p>
 </div>
 
 <div class="w3-container">
@@ -133,6 +135,7 @@ To be a model group which provides quality services
 </div>
 
 <script>
+
 // Open and close the sidebar on medium and small screens
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
@@ -144,8 +147,7 @@ function w3_close() {
   document.getElementById("myOverlay").style.display = "none";
 }
 
-
-// tabs Javascript code
+<!-- tabs javascript code-->
 function openTabs(cityName) {
   window.scrollTo({ top: 0, behavior: 'smooth' }); // This helps a tabs to start at the beginnig of a page
   var i;
